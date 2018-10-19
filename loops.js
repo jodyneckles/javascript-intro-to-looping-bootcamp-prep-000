@@ -7,5 +7,10 @@ function makeArray() { // This function is to make an array with 25 values and s
         array.push("I am " + i + " strange loops."); // Else push this string to the array.
       }
   }
-  console.log(array) // 
+  console.log(array) //
+}
+
+
+function forLoop(array){
+  console.log(array);
 }
