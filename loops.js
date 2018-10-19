@@ -12,9 +12,9 @@ function forLoop(array){
 
 
 function whileLoop(n) {
-  let n = Math.floor(Math.random() * 100)
+  n = Math.floor(Math.random() * 100)
   while (n > 0) {
     console.log(--n);
   }
-
+  return "done"
 }
