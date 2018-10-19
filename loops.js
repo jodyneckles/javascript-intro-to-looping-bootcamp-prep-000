@@ -21,7 +21,7 @@ function whileLoop(n) {
 
 function doWhileLoop(array){
   function toBeSure() {
-  Math.floor(Math.random() * 100)
+  array = [Math.floor(Math.random() * 100)]
   }
   do {array=array.slice(1)}
   while(array.length>0 && toBeSure())
