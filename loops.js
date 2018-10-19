@@ -18,11 +18,10 @@ function whileLoop(n) {
   return "done";
 }
 
+array = [Math.floor(Math.random() * 100)]
 
 function doWhileLoop(array){
-  function toBeSure() {
-  array = [Math.floor(Math.random() * 100)]
-  }
+
   do {array=array.slice(1)}
   while(array.length>0 && toBeSure())
 
